@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto; /* Center the container */
+    padding: 25px;
+}
+
+.container {
+   margin-top: 50px;
+   margin-left: 80px;
+   padding-bottom: 80px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+li{
+    
+    background-color:yellow ;
+    height:40px;
+    line-height:36px;
+    padding: 10px;
+    font-size: large;
+    margin: 10px;
+    
+
+
+}
+
+.target {
+    width: 100px; 
+    height: 35px;
+    padding: 10px;
+    border: 1px solid black;
+  }
