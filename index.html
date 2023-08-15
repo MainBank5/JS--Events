@@ -42,6 +42,79 @@ The mouseUp() function sets the color of this text to blue.</p>
     <div class="target">
 
     </div>
+
+    <h2 id="heading-one">Adding Items</h2>
+    
+
+    <form id="myForm">
+    <div> 
+        <label for="ite"> Add Shopping Items</label>
+        <input type="text" name="itemz" placeholder="type to add items"  id="item-input">
+    </div>
+
+    <div>
+        <select name="priority" id="priority-input">
+            <option value="0">Select Priority</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+
+    
+        <div>
+            <input type="checkbox" name="checked-or-not" id="checkbox">Recurring items
+        </div>
+
+        <div>
+            <button id="subm">Go to Cart</button>
+        </div>
+
+        <div>
+            <button id="payments">CheckOut</button>
+        </div>
+        
+    </form>
+
+    <!--Event bubling -->
+    <br>
+    <hr><b>Event Bubbling:</b></i>&nbsp;When an event occurs on one element, it can trigger other events
+    that are registered with the parent elements as well.<br/>
+    <section>
+
+        <h2>Bubbling Event in Javascript</h2>
+  
+    <div id="parent">
+        <button>
+            <h2>Parent</h2>
+        </button>
+        <button id="child">
+  
+            <p>Child</p>
+  
+        </button>
+    </div>
+    </section>
+
+    <div class="box">
+        <div>
+            <h1>New Items for event delegation</h1>
+        </div>
+
+        <div>
+            <ul class="groceries">
+                <li class="goods">beans</li>
+                <li class="goods">Maize</li>
+                <li class="goods">Mung</li>
+                <li class="goods">peas</li>
+            </ul>
+
+        </div>
+
+    </div>
+    
+
+
     <script src="/events.js"></script>
 </body>
 </html>
