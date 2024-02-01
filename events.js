@@ -413,6 +413,7 @@ parentBub.addEventListener('click', function() {
 
 //you can stop this event transmission/propagation to other elements using e.stopPropagation
 const childEvn = document.getElementById('child');
+
 childEvn.addEventListener('click', (e) => {
     alert (`this is a child`);
     e.stopPropagation()
@@ -440,5 +441,22 @@ const markt = document.querySelectorAll('.goods');
     
  });
 
-//window events 
+//window object events 
+
+/*window.addEventListener('resize', () => {
+    document.getElementById('screen').textContent = `Windows Resized ${window.innerWidth} X ${window.innerHeight}`
+});
+
+window.addEventListener('scroll', () => {
+    console.log(`Scrolled: ${window.scrollY} X ${window.scrollX}`)
+
+    if(window.scrollY > 100) {
+        document.body.style.backgroundColor = 'black'
+        document.body.style.color = 'white'
+    } 
+    else{
+        document.body.style.backgroundColor = 'White'
+        document.body.style.color = 'black'
+    }
+})*/
 
